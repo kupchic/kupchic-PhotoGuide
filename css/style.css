@@ -912,6 +912,7 @@ footer {
   -ms-grid-columns: (minmax(200px, auto))[2];
       grid-template-columns: repeat(2, minmax(200px, auto));
   margin-top: 33px;
+  width: 100%;
 }
 
 .inter_field {
@@ -1216,6 +1217,16 @@ img {
   right: 35px;
   top: 30px;
   border: none;
+}
+
+label[for="menu_btn"] {
+  z-index: 1;
+  width: 30px;
+  height: 21px;
+  background-color: transparent;
+  position: absolute;
+  right: 35px;
+  top: 30px;
 }
 
 .menu_button:after {
