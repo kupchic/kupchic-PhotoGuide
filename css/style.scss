@@ -384,7 +384,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    // width: 100%;
+   
     background-attachment: fixed;
 }
 
@@ -424,8 +424,8 @@ body {
     &:after {
         content: '';
         position: absolute;
-        left: -100px;
-        top: -90px;
+        left: -101px;
+        top: -91px;
         background-image: url(../img/stamp.png);
         background-size: contain;
         height: 220px;
@@ -1037,6 +1037,7 @@ label[for = "menu_btn"]{
 
     .our_team {
         flex-direction: column;
+        background-size: auto 135vh;
     }
 
     .team_description {
