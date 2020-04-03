@@ -50,7 +50,6 @@ window.addEventListener('scroll', function (e) {
   const head = document.getElementById('parallax_header');
   const team = document.getElementById('parallax_team');
   let headerToTop = head.getBoundingClientRect().top;
-  console.log(headerToTop);
   let teamToTop = team.getBoundingClientRect().top;
   head.style.backgroundPositionY = `${headerToTop*0.4}px`;
   team.style.backgroundPositionY = `${teamToTop*0.4}px`;
