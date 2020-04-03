@@ -732,7 +732,7 @@ body {
   min-height: 300px;
   margin-bottom: 80px;
   width: 100%;
-  padding-top: 20px  0 !important;
+  padding: 20px  0 !important;
 }
 
 .swiper_btn_active_next, .swiper_btn_active_prev {
