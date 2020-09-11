@@ -73,7 +73,6 @@ body {
 //mixins
 .content {
     width: 100%;
-    max-width: 1520px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -89,7 +88,6 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    max-width: 1520px;
     margin: 0 auto;
     min-height: 80px;
     padding: 0 $mr;
@@ -139,16 +137,15 @@ body {
 }
 
 .header_content {
-    height: fit-content;
+    // height: fit-content;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     position: relative;
     background-image: url(../img/Optimized-jakob-owens-oIPwvZIAp0o-unsplash.jpg);
     background-position: top;
-    // background-position-y: -150px;
     background-repeat: no-repeat;
-    // background-size: 100%;
     background-size: cover;
     background-attachment: fixed;
 
@@ -844,7 +841,6 @@ img {
         display: none;
         overflow: hidden;
         overflow-x: scroll;
-        max-width: 1520px;
         margin-bottom: 80px;
 
         &::-webkit-scrollbar {
