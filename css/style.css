@@ -1538,6 +1538,7 @@ label[for="menu_btn"] {
         grid-template-columns: repeat(2, minmax(130px, 170px));
   }
   .header_content {
+    height:fit-content;
     background-size: auto 110vh;
   }
   .our_team {
